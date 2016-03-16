@@ -1,0 +1,56 @@
+.animation-section {
+  margin-top: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.half-width {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  float: left;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+
+.clearfix {
+  height: 1%;
+}
+
+.block {
+  position: relative;
+  display: block;
+  margin: 100px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.tips{
+  text-align: center;
+  margin-top: 120px;
+}
+
+.block-overflow-hidden {
+  .block;
+  overflow: hidden;
+}
+
+.wave {
+  position: absolute;
+  margin: -5px 0 0 -5px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+}
